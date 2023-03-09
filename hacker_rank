@@ -1,0 +1,38 @@
+#PCTC Round 1 Demo 1
+greeting_word = input()
+name = input()
+greeting = greeting_word + " " + name
+print(greeting)
+
+#PCTC Round 1 Demo 2
+x = int(input())
+y = int(input())
+if x>y:
+    z = x-y
+    print(z)
+elif y>x:
+    z = y-x
+    print(z)
+    
+#PCTC Round 1 Demo 3
+word = input()
+number = len(word)
+answer = 30/ number + 1
+final = word * int(answer)
+print(final)
+
+#PCTC Round 1 Demo 4
+numberchoice = int(input())
+if numberchoice > 50:
+    print("yes dream big")
+elif numberchoice <= 50:
+    print("on the small side")
+    
+#PCTC Round 1 Demo 5
+number1 = int(input())
+operation = input()
+number2 = int(input())
+if operation == '+':
+    print(number1 + number2)
+elif operation == '*':
+    print(number1 * number2)
